@@ -706,4 +706,109 @@
     
     
     
+}
+@media screen and (max-width: 667px) {
+
+  .text0s{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
   }
+  .text0s h1{
+      font-size: 1.6rem;
+      width: 300px;
+  }
+  .form__but{
+      width: 400px;
+  }
+
+  /* Pipoca */
+
+  .boxp{
+      width: 100%;
+  }
+
+  /* TV 2 */
+
+
+  .text__tv2 h2{
+      font-size: 1.5rem;   
+  }
+  p.teste{
+      font-size: 1.2rem;
+      text-wrap: wrap;
+  }
+  .content__tv2 {
+      max-width: calc(70.22222%);
+      margin-left: 80px;
+  }
+
+  /* TV 3 */
+
+
+  .text__tv3 h2{
+      font-size: 1.5rem;   
+      text-wrap: nowrap; 
+  }
+  p.teste1{
+      font-size: 0.9rem;
+      text-wrap: wrap;
+      
+  }
+  .tv__vi1{
+      margin-left: 70px;
+  }
+  .img4__2{
+      transform: translate(-24%, 220%);
+  }
+
+  /* TV 5 */
+
+
+  .text__tv5 h2{
+      font-size: 1.8rem;
+      
+  }
+  .tv__vi5{
+      margin-left: 30px;
+  }
+  /* }
+  .tv__vi5 img {
+      width: 10rem;
+      
+    }
+  .tv__vi5 .tv2_img {
+      width: 40rem;
+      height: rem;
+    }       */
+
+    /* TV 6 */
+
+
+  .text__tv6 h2{
+      font-size: 1.9rem;
+      text-wrap: nowrap;
+    }
+  .text__form2 h3{
+      font-size: 1rem;
+      text-wrap: wrap;
+      margin-left: 30px;
+  }
+
+  /* Footer */
+
+  .text_footer{
+      margin-top: 10%;
+      margin-bottom: 0%;
+  }
+
+
+  footer{
+      display: flex;
+      padding: 30% 15%;
+    }
+    
+    
+
+  
+}
