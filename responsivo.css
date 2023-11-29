@@ -772,15 +772,8 @@
   .tv__vi5{
       margin-left: 30px;
   }
-  /* }
-  .tv__vi5 img {
-      width: 10rem;
-      
-    }
-  .tv__vi5 .tv2_img {
-      width: 40rem;
-      height: rem;
-    }       */
+
+
 
     /* TV 6 */
 
@@ -811,4 +804,119 @@
     
 
   
+}
+
+
+
+@media screen and (max-width: 568px){
+
+
+  .text__tv1 h2{
+      font-size: 2rem;
+  }
+  p.teste1{
+      font-size: 0.8rem;
+  }
+
+
+  
+  /* Pipoca */
+
+   
+  .boxp{
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      width: 80%;
+      margin-top: 8.4%;
+      padding: 10px;
+    
+    }
+
+
+    /* TV 1 */
+
+    .tv__vi1 img {
+      overflow: clip;
+      width: 20rem;
+      height: 14rem;
+    }
+    
+    
+    .tv__vi1 video {
+      width: 15rem;
+      height: 14rem;
+    }
+    
+    /* TV 4 */
+
+
+    .img4__1 {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 600px;
+    
+    }
+    
+    .img4__1>img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .img4__2 {
+      position: absolute;
+      transform: translate(-44%, 250%);
+      width: 20rem;
+      height: 6rem;
+    
+    
+    }
+
+
+
+    /* TV 5 */
+
+    .tv__vi5 img {
+      overflow: clip;
+      width: 20rem;
+      height: 14rem;
+    }
+    
+    
+    .tv__vi5 .tv2_img {
+      width: 15rem;
+      height: 14rem;
+    }
+
+
+    /* TV 6 */
+
+    .img6 {
+      display: flex;
+      align-items: center;
+      width: 60%;
+    }
+    
+    .img6>img {
+    
+      width: 14rem;
+      height: 20rem;
+    }
+    
+    /* Barra */
+
+    .text__form2>h3 {
+      font-size: 0.8rem;
+      display: flex;
+      justify-content: center;
+    }
+    
+
+
+
 }
